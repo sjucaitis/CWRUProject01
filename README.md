@@ -1,9 +1,9 @@
 Title Dive
 
 Contributors:
-  Brian Kutsar
-  Chase Edwards
-  Suzanne Jucaitis 
+  Brian Kutsar,
+  Chase Edwards,
+  Suzanne Jucaitis,
   Justin L.
  
 Motivation for Development: 
