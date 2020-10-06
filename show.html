@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title Dive</title>
+    <!-- Bootstrap CSS CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-md bg-transparent ">
+      <a class="navbar-brand text-dark name" href="index.html">Title Dive</a>
+      <a class="btn navbar-btn text-white" href="index.html">Search</a>
+    </nav>
+
+    <main class="container mt-5">
+      <section class="row mb-3">
+        <div class="col-12 text-center">
+          <h1 id="titleShow"></h1>
+          <h3 id="yearShow"></h3>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-md-6 d-flex justify-content-center">
+          <img class="poster">
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+          <iframe width="630" height="472" id="video"
+          src="">
+          </iframe>
+        </div>
+      </section>
+
+      <section class="row d-flex justify-content-center mt-5">
+        <div class="col-8">
+          <p id="plotShow"></p>
+        </div>
+      </section>
+
+      <section class="row d-flex justify-content-center mb-5">
+        <div class="col-md-8"> 
+          <h4 id="ratingShow"></h4>
+          <h5 id="directorShow"></h5>
+          <h6 id="actorsShow"></h6>
+        </div>
+      </section>
+
+      <div id="page-container" class="container footer-div fixed-bottom">
+        <div id="content-wrap"></div>
+        <footer>
+            <p>Brian Kutsar | Chase Edwards | Suzanne Jucaitis | Justin L.</p>
+        </footer>
+    </div>
+    </div>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="show.js"></script>
+  </body>
+</html>

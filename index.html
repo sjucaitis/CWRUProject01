@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title Dive</title>
+        <!-- Bootstrap CSS CDN  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-md bg-transparent fixed-top">
+            <a class="navbar-brand text-white name" href="index.html">Title Dive</a>
+            <a class="btn navbar-btn text-white" href="index.html">Search</a>
+        </nav>
+        
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="text-center display-3">What's Next?</h1>
+                <p class="text-center lead">In need of a new tv show, or movie to watch? We can give you some recommendations.</p>
+            </div>
+        </header>
+
+        <main class="container">
+            <h1 class="title text-center mb-4">Search Title Dive</h1>
+
+            <section class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="New Title Search" id="showInput">
+                <button id="searchBtn" class="btn btn-outline-danger my-2 my-sm-0 ml-1" type="submit">Search</button>
+            </section>
+
+            <section id="errorFeedback"  class="result mb-5">
+                <div>
+                    <h5 class="display-5">Sorry, we weren't able to find the title. Please make sure you type in the full correct spelling of your title.</h5>
+                </div>
+            </section>
+
+            <section class="row result">
+                <div>
+                    <h5 id="resultsFeedback" class="display-5">Results based off of your search for: <span id="titleSearch"></span></h5>
+                </div>
+            </section>
+
+            <section class="row result mb-5">
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card" id="card0" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 id="title0" class="card-title text-center"></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card" id="card1" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 id="title1" class="card-title text-center"></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card" id="card2" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 id="title2" class="card-title text-center"></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card" id="card3" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 id="title3" class="card-title text-center"></h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="row result mb-5">
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card" id="card4" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 id="title4" class="card-title text-center"></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card" id="card5" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 id="title5" class="card-title text-center"></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card" id="card6" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 id="title6" class="card-title text-center"></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card" id="card7" style="width: 14rem;">
+                        <div class="card-body">
+                            <h5 id="title7" class="card-title text-center"></h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="page-container" class="container footer-div fixed-bottom">
+                <div id="content-wrap"></div>
+                <footer>
+                    <p>Brian Kutsar | Chase Edwards | Suzanne Jucaitis | Justin L.</p>
+                </footer>
+            </div>
+        </main>    
+    
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
